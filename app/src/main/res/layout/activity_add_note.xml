@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Note Name Input -->
+    <EditText
+        android:id="@+id/note_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="@string/note_name_hint"
+        android:autofillHints="autofillHintUsername"
+        android:inputType="textPersonName" />
+
+    <!-- Note Content Input -->
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="16dp"
+        android:hint="@string/note_content_hint"
+        android:autofillHints="autofillHintText"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="5"
+        android:padding="8dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/save_button_text" />
+</LinearLayout>

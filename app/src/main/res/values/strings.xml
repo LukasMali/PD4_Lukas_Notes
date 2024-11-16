@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">PD4_Lukas_Notes</string>
+    <string name="note_name_hint">Note Name</string>
+    <string name="note_content_hint">Note Content</string>
+    <string name="save_button_text">Save</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="add_note_menu">Add Note</string>
+    <string name="delete_note_menu">Delete Note</string>
+    <string name="note_saved_message">Note saved</string>
+    <string name="note_deleted_message">Note deleted</string>
+    <string name="fields_required_message">Both fields are required</string>
+    <string name="no_note_selected_message">No note selected</string>
+    <string name="add_note_button_text">Add First Note</string>
+    <string name="note_title_placeholder">Note Title</string>
+    <string name="note_content_placeholder">Note Content</string>
+    <string name="delete_note_dialog_title">Delete Note</string>
+    <string name="delete_note_dialog_message">Are you sure you want to delete this note?</string>
+    <string name="delete_note_dialog_yes">Yes</string>
+    <string name="delete_note_dialog_no">No</string>
+    <string name="back_to_notes_button_text">Back to Notes</string>
+    <string name="add_new_note_button_text">Add Note</string>
+    <string name="create_new_note">Create New Note</string>
+    <string name="no_notes_placeholder">No notes available. Add a new note to get started!</string>
 </resources>
